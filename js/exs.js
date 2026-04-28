@@ -16,10 +16,34 @@ let courseHours = 950;
 
 //pp1, nr26
 
-let name = prompt("Qual é o teu nome?");
+// let name = prompt("Qual é o teu nome?");
 
-let lastPosition = name.length-1;
+// let lastPosition = name.length-1;
 
 
-console.log('o nome '+name+' tem '+name.length);
-console.log('a primeira letra do nome é '+name[0]+ 'e a última letra é '+name[lastPosition]);
+// console.log('o nome '+name+' tem '+name.length);
+// console.log('a primeira letra do nome é '+name[0]+ 'e a última letra é '+name[lastPosition]);
+
+
+//pp1, nr29
+// let message = " TASTE THE RAINBOW! ";
+// console.log(message)
+
+// let whisper = message.toLowerCase().trim();
+// console.log(whisper);
+
+
+//nome= Carlos Fidalgo
+//firstName = Carlos
+
+//pp1, n34
+let myLuckyNumber = 16;
+let myName = 'Sara';
+
+console.log("o meu nome é "+myName+ " e o meu número preferido é "+myLuckyNumber);
+
+
+let num1= Number(prompt('Indique o número 1:'));
+let num2= Number(prompt('Indique o número 2:'));
+
+console.log("a multiplicação é: "+(num1*num2));

@@ -18,5 +18,18 @@ let courseName = "Turma de desenvolvimento UI UX";
 
 // console.log(string.length)
 
-let username = prompt('Regista o teu email');
-console.log(username.toLowerCase().trim())
+// let username = prompt('Regista o teu email');
+// console.log(username.toLowerCase().trim())
+
+//numbers
+// let num1= Number(prompt('Indique o número 1:'));
+// let num2= Number(prompt('Indique o número 2:'));
+
+// alert("a soma é: "+(num1+num2));
+
+// let testNumber= 10;
+
+
+//comparações
+alert(Math.PI);
+
