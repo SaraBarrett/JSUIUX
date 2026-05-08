@@ -11,8 +11,6 @@ let courseName = "Turma de desenvolvimento UI UX";
 //trabalhar a info dada pelo user, neste caso para dizer olá e o seu nome
 // console.log("olá " + name);
 
-
-
 // let number = 100;
 // let string = 'Curso UI/UX'
 
@@ -22,14 +20,57 @@ let courseName = "Turma de desenvolvimento UI UX";
 // console.log(username.toLowerCase().trim())
 
 //numbers
-// let num1= Number(prompt('Indique o número 1:'));
+//let num1= Number(prompt('Indique o número 1:'));
 // let num2= Number(prompt('Indique o número 2:'));
 
 // alert("a soma é: "+(num1+num2));
 
 // let testNumber= 10;
 
-
 //comparações
-alert(Math.PI);
+// alert(Math.PI);
+
+//processos de decisão
+// let name = prompt("qual é o seu nome?");
+
+// if (name != "" && name) {
+//   alert("Olá " + name);
+// }else{
+//     alert('olá user. Para uma experiência customizada, coloque o seu nome');
+// }
+
+//pergunta ao user a idade. se tiver mais que 17, alert('acesso permitido') se não acesso bloqueado
+// let userAge = prompt("qual é a sua idade?");
+
+// if (userAge >= 18) {
+//   alert("Acesso concedido");
+// } else {
+//   alert("Acesso bloqueado");
+// }
+
+// let num1 = Number(prompt("Number1:"));
+// let num2 = Number(prompt("Number2:"));
+// let op = prompt("Operação(+, -, / ou *):");
+
+// if (op == "+") {
+//   alert(num1 + num2);
+// } else if (op == "*") {
+//   alert(num1 * num2);
+// } else if (op == "/") {
+//   alert(num1 / num2);
+// }else if(op == "-"){
+//       alert(num1 - num2);
+// } else {
+//     alert('atenção que essa operação não existe!')
+// }
+
+//ciclos de repetição: while
+let userCode = prompt("qual é o código secreto?");
+
+while (userCode != "jsrocks") {
+  userCode = prompt("código errado. Qual é o código secreto?");
+}
+
+
+alert('parabens!');
 
