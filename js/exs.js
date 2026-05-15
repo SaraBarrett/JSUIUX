@@ -97,3 +97,12 @@ let courseHours = 950;
 //   default:
 //     alert("Opção inválida");
 // }
+
+//pp estruturas de controlo, pp12
+for (let count = 1; count < 7; count++) {
+  console.log(count + " Da ba dee da ba daa");
+}
+
+for (let count = 25; count > 0; count = count - 5) {
+  console.log(count);
+}

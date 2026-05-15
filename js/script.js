@@ -65,12 +65,29 @@ let courseName = "Turma de desenvolvimento UI UX";
 // }
 
 //ciclos de repetição: while
-let userCode = prompt("qual é o código secreto?");
+// let userCode = prompt("qual é o código secreto?");
 
-while (userCode != "jsrocks") {
-  userCode = prompt("código errado. Qual é o código secreto?");
-}
+// while (userCode != "jsrocks" ) {
+//   userCode = prompt("código errado. Qual é o código secreto?");
+// }
+
+// alert('parabens!');
+// let count = 0;
+
+// let userCount = Number(
+//   prompt("quantas vezes queres repetir?Insira um número de 1 0 10"),
+// );
+
+// if (userCount < 1 || userCount > 10) {
+//   alert("erro de número");
+// } else {
+//   while (count <= userCount) {
+//     alert(count++);
+//   }
+// }
 
 
-alert('parabens!');
-
+//ciclo for para contar de 0 a 5
+// for(let count = 0; count <=25; count = count+5){
+//   alert(count);
+// }
